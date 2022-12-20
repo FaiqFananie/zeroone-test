@@ -1,0 +1,45 @@
+{
+  "name": "backend-test",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "nx serve",
+    "build": "nx build",
+    "test": "nx test"
+  },
+  "private": true,
+  "dependencies": {
+    "@fastify/cors": "^8.2.0",
+    "express": "^4.18.1",
+    "fastify": "^4.10.2",
+    "nanoid": "^3.3.4",
+    "pg": "^8.8.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.27.0",
+    "tslib": "^2.3.0"
+  },
+  "devDependencies": {
+    "@nrwl/eslint-plugin-nx": "15.3.3",
+    "@nrwl/express": "15.3.3",
+    "@nrwl/jest": "15.3.3",
+    "@nrwl/linter": "15.3.3",
+    "@nrwl/node": "15.3.3",
+    "@nrwl/nx-cloud": "latest",
+    "@nrwl/workspace": "^15.3.3",
+    "@types/express": "4.17.13",
+    "@types/jest": "28.1.1",
+    "@types/node": "18.7.1",
+    "@typescript-eslint/eslint-plugin": "^5.36.1",
+    "@typescript-eslint/parser": "^5.36.1",
+    "eslint": "~8.15.0",
+    "eslint-config-prettier": "8.1.0",
+    "jest": "28.1.1",
+    "jest-environment-jsdom": "28.1.1",
+    "nx": "15.3.3",
+    "prettier": "^2.6.2",
+    "sequelize-cli": "^6.5.2",
+    "ts-jest": "28.0.5",
+    "ts-node": "10.9.1",
+    "typescript": "~4.8.2"
+  }
+}
